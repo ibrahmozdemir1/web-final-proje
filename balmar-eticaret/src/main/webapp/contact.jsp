@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -42,34 +42,18 @@
                 <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
                 <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
             </ul>
-            <div class="header__cart__price">item: <span>$150.00</span></div>
+            <div class="header__cart__price">item: <span>silinecek</span></div>
         </div>
         <div class="humberger__menu__widget">
-            <div class="header__top__right__language">
-                <img src="img/language.png" alt="">
-                <div>English</div>
-                <span class="arrow_carrot-down"></span>
-                <ul>
-                    <li><a href="#">Spanis</a></li>
-                    <li><a href="#">English</a></li>
-                </ul>
-            </div>
             <div class="header__top__right__auth">
-                <a href="#"><i class="fa fa-user"></i> Login</a>
+                <a href="#"><i class="fa fa-user"></i> Giriş Yap</a>
             </div>
         </div>
         <nav class="humberger__menu__nav mobile-menu">
             <ul>
-                <li class="active"><a href="./index.jsp">Home</a></li>
-                <li><a href="./shop-grid.jsp">Shop</a></li>
-                <li><a href="#">Pages</a>
-                    <ul class="header__menu__dropdown">
-                        <li><a href="./shop-details.jsp">Shop Details</a></li>
-                        <li><a href="./shoping-cart.jsp">Shoping Cart</a></li>
-                        <li><a href="./checkout.jsp">Check Out</a></li>
-                    </ul>
-                </li>
-                <li><a href="./contact.jsp">Contact</a></li>
+                <li class="active"><a href="./index.jsp">Anasayfa</a></li>
+                <li><a href="./shop-grid.jsp">Ürünlerimiz</a></li>
+                <li><a href="./contact.jsp">İletişim</a></li>
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
@@ -81,8 +65,8 @@
         </div>
         <div class="humberger__menu__contact">
             <ul>
-                <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-                <li>Free Shipping for all Order of $99</li>
+                <li><i class="fa fa-envelope"></i> destek@balmar.com</li>
+                <li>100 TL ve üzeri alışverişlerinizde kargo ÜCRETSİZ!</li>
             </ul>
         </div>
     </div>
@@ -93,15 +77,15 @@
         <div class="header__top">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="header__top__left">
                             <ul>
-                                <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-                                <li>Free Shipping for all Order of $99</li>
+                                <li><i class="fa fa-envelope"></i> destek@balmar.com</li>
+                                <li>100 TL ve üzeri alışverişlerinizde kargo ÜCRETSİZ!</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="header__top__right">
                             <div class="header__top__right__social">
                                 <a href="#"><i class="fa fa-facebook"></i></a>
@@ -109,17 +93,8 @@
                                 <a href="#"><i class="fa fa-linkedin"></i></a>
                                 <a href="#"><i class="fa fa-pinterest-p"></i></a>
                             </div>
-                            <div class="header__top__right__language">
-                                <img src="img/language.png" alt="">
-                                <div>English</div>
-                                <span class="arrow_carrot-down"></span>
-                                <ul>
-                                    <li><a href="#">Spanis</a></li>
-                                    <li><a href="#">English</a></li>
-                                </ul>
-                            </div>
                             <div class="header__top__right__auth">
-                                <a href="#"><i class="fa fa-user"></i> Login</a>
+                                <a href="#"><i class="fa fa-user"></i> Giriş Yap</a>
                             </div>
                         </div>
                     </div>
@@ -136,16 +111,9 @@
                 <div class="col-lg-6">
                     <nav class="header__menu">
                         <ul>
-                            <li><a href="./index.jsp">Home</a></li>
-                            <li><a href="./shop-grid.jsp">Shop</a></li>
-                            <li><a href="#">Pages</a>
-                                <ul class="header__menu__dropdown">
-                                    <li><a href="./shop-details.jsp">Shop Details</a></li>
-                                    <li><a href="./shoping-cart.jsp">Shoping Cart</a></li>
-                                    <li><a href="./checkout.jsp">Check Out</a></li>
-                                </ul>
-                            </li>
-                            <li class="active"><a href="./contact.jsp">Contact</a></li>
+                            <li class="active"><a href="./index.jsp">Anasayfa</a></li>
+                            <li><a href="./shop-grid.jsp">Ürünlerimiz</a></li>
+                            <li><a href="./contact.jsp">İletişim</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -155,7 +123,7 @@
                             <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
                             <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
                         </ul>
-                        <div class="header__cart__price">item: <span>$150.00</span></div>
+                        <div class="header__cart__price">item: <span>silinecek</span></div>
                     </div>
                 </div>
             </div>
@@ -167,27 +135,24 @@
     <!-- Header Section End -->
 
     <!-- Hero Section Begin -->
-    <section class="hero hero-normal">
+    <section class="hero">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>All departments</span>
+                            <span>Tüm Katagoriler</span>
                         </div>
                         <ul>
-                            <li><a href="#">Fresh Meat</a></li>
-                            <li><a href="#">Vegetables</a></li>
-                            <li><a href="#">Fruit & Nut Gifts</a></li>
-                            <li><a href="#">Fresh Berries</a></li>
-                            <li><a href="#">Ocean Foods</a></li>
-                            <li><a href="#">Butter & Eggs</a></li>
+                            <li><a href="#">Taze Et</a></li>
+                            <li><a href="#">Sebze</a></li>
+                            <li><a href="#">Meyve & Kuruyemişler</a></li>
+                            <li><a href="#">Taze Orman Meyveleri</a></li>
+                            <li><a href="#">Deniz Ürünleri</a></li>
+                            <li><a href="#">Tereyağı & Yumurta</a></li>
                             <li><a href="#">Fastfood</a></li>
-                            <li><a href="#">Fresh Onion</a></li>
-                            <li><a href="#">Papayaya & Crisps</a></li>
-                            <li><a href="#">Oatmeal</a></li>
-                            <li><a href="#">Fresh Bananas</a></li>
+                            <li><a href="#">Yulaf Ezmesi</a></li>
                         </ul>
                     </div>
                 </div>
@@ -196,11 +161,11 @@
                         <div class="hero__search__form">
                             <form action="#">
                                 <div class="hero__search__categories">
-                                    All Categories
+                                    Tüm Katagoriler
                                     <span class="arrow_carrot-down"></span>
                                 </div>
                                 <input type="text" placeholder="What do yo u need?">
-                                <button type="submit" class="site-btn">SEARCH</button>
+                                <button type="submit" class="site-btn">ARA</button>
                             </form>
                         </div>
                         <div class="hero__search__phone">
@@ -209,7 +174,7 @@
                             </div>
                             <div class="hero__search__phone__text">
                                 <h5>+65 11.188.888</h5>
-                                <span>support 24/7 time</span>
+                                <span>7/24 Destek</span>
                             </div>
                         </div>
                     </div>
@@ -225,10 +190,10 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Contact Us</h2>
+                        <h2>Bize Ulaşın</h2>
                         <div class="breadcrumb__option">
-                            <a href="./index.jsp">Home</a>
-                            <span>Contact Us</span>
+                            <a href="./index.jsp">Anasayfa</a>
+                            <span>İletişim</span>
                         </div>
                     </div>
                 </div>
@@ -244,21 +209,21 @@
                 <div class="col-lg-3 col-md-3 col-sm-6 text-center">
                     <div class="contact__widget">
                         <span class="icon_phone"></span>
-                        <h4>Phone</h4>
+                        <h4>Telefon</h4>
                         <p>+01-3-8888-6868</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 text-center">
                     <div class="contact__widget">
                         <span class="icon_pin_alt"></span>
-                        <h4>Address</h4>
+                        <h4>Adres</h4>
                         <p>60-49 Road 11378 New York</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 text-center">
                     <div class="contact__widget">
                         <span class="icon_clock_alt"></span>
-                        <h4>Open time</h4>
+                        <h4>Açılış ve Kapanış Saatlerimiz</h4>
                         <p>10:00 am to 23:00 pm</p>
                     </div>
                 </div>
@@ -266,7 +231,7 @@
                     <div class="contact__widget">
                         <span class="icon_mail_alt"></span>
                         <h4>Email</h4>
-                        <p>hello@colorlib.com</p>
+                        <p>destek@balmar.com</p>
                     </div>
                 </div>
             </div>
@@ -298,21 +263,21 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="contact__form__title">
-                        <h2>Leave Message</h2>
+                        <h2>Mesaj Gönderin</h2>
                     </div>
                 </div>
             </div>
             <form action="#">
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
-                        <input type="text" placeholder="Your name">
+                        <input type="text" placeholder="İsminiz">
                     </div>
                     <div class="col-lg-6 col-md-6">
-                        <input type="text" placeholder="Your Email">
+                        <input type="text" placeholder="E-mail adresiniz">
                     </div>
                     <div class="col-lg-12 text-center">
-                        <textarea placeholder="Your message"></textarea>
-                        <button type="submit" class="site-btn">SEND MESSAGE</button>
+                        <textarea placeholder="Mesajınız"></textarea>
+                        <button type="submit" class="site-btn">Gönder</button>
                     </div>
                 </div>
             </form>
@@ -332,38 +297,38 @@
                         <ul>
                             <li>Address: 60-49 Road 11378 New York</li>
                             <li>Phone: +65 11.188.888</li>
-                            <li>Email: hello@colorlib.com</li>
+                            <li>Email: destek@balmar.com</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
                     <div class="footer__widget">
-                        <h6>Useful Links</h6>
+                        <h6>Kullanılabilir linkler</h6>
                         <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">About Our Shop</a></li>
-                            <li><a href="#">Secure Shopping</a></li>
-                            <li><a href="#">Delivery infomation</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Our Sitemap</a></li>
+                            <li><a href="#">Hakkımızda</a></li>
+                            <li><a href="#">Satış İlkelerimiz</a></li>
+                            <li><a href="#">Güvenli Alışveriş</a></li>
+                            <li><a href="#">Sipariş Bilgisi</a></li>
+                            <li><a href="#">Gizlilik İlkemiz</a></li>
+                            <li><a href="#"> Web Sitemizin Düzeni</a></li>
                         </ul>
                         <ul>
-                            <li><a href="#">Who We Are</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Innovation</a></li>
-                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Biz kimiz</a></li>
+                            <li><a href="#">Servislerimiz</a></li>
+                            <li><a href="#">Projelerimiz</a></li>
+                            <li><a href="#">İletişim</a></li>
+                            <li><a href="#">Inovasyon</a></li>
+                            <li><a href="#">Referanslarımız</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="footer__widget">
-                        <h6>Join Our Newsletter Now</h6>
-                        <p>Get E-mail updates about our latest shop and special offers.</p>
+                        <h6>Tüm Kampanyalardan Haberdar Olmak İçin</h6>
+                        <p>E-mail adresinizi yazın tüm indirimlerden sizi haberdar edelim.</p>
                         <form action="#">
-                            <input type="text" placeholder="Enter your mail">
-                            <button type="submit" class="site-btn">Subscribe</button>
+                            <input type="text" placeholder="Mail adresinizi buraya yazınız..">
+                            <button type="submit" class="site-btn">Katıl</button>
                         </form>
                         <div class="footer__widget__social">
                             <a href="#"><i class="fa fa-facebook"></i></a>

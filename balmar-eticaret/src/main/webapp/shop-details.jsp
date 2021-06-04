@@ -57,9 +57,9 @@
       </div>
       <nav class="humberger__menu__nav mobile-menu">
         <ul>
-          <li class="active"><a href="./index.html">Ana Sayfa</a></li>
-          <li><a href="./shop-grid.html">Alışveriş</a></li>
-          <li><a href="./contact.html">İletişim</a></li>
+          <li class="active"><a href="./index.jsp">Ana Sayfa</a></li>
+          <li><a href="./shop-grid.jsp">Alışveriş</a></li>
+          <li><a href="./contact.jsp">İletişim</a></li>
         </ul>
       </nav>
       <div id="mobile-menu-wrap"></div>
@@ -112,15 +112,15 @@
         <div class="row">
           <div class="col-lg-3">
             <div class="header__logo">
-              <a href="./index.html"><img src="img/logo.png" alt="" /></a>
+              <a href="./index.jsp"><img src="img/logo.png" alt="" /></a>
             </div>
           </div>
           <div class="col-lg-6">
             <nav class="header__menu">
               <ul>
-                <li><a href="./index.html">Ana Sayfa</a></li>
-                <li class="active"><a href="./shop-grid.html">Alışveriş</a></li>
-                <li><a href="./contact.html">İletişim</a></li>
+                <li><a href="./index.jsp">Ana Sayfa</a></li>
+                <li class="active"><a href="./shop-grid.jsp">Alışveriş</a></li>
+                <li><a href="./contact.jsp">İletişim</a></li>
               </ul>
             </nav>
           </div>

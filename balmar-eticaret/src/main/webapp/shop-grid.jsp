@@ -57,17 +57,17 @@
       </div>
       <nav class="humberger__menu__nav mobile-menu">
         <ul>
-          <li class="active"><a href="./index.html">Ana Sayfa</a></li>
-          <li><a href="./shop-grid.html">Alışveriş</a></li>
+          <li class="active"><a href="./index.jsp">Anasayfa</a></li>
+          <li><a href="./shop-grid.jsp">Alışveriş</a></li>
           <li>
             <a href="#">Pages</a>
             <ul class="header__menu__dropdown">
-              <li><a href="./shop-details.html">Shop Details</a></li>
-              <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-              <li><a href="./checkout.html">Check Out</a></li>
+              <li><a href="./shop-details.jsp">Shop Details</a></li>
+              <li><a href="./shoping-cart.jsp">Shoping Cart</a></li>
+              <li><a href="./checkout.jsp">Check Out</a></li>
             </ul>
           </li>
-          <li><a href="./contact.html">İletişim</a></li>
+          <li><a href="./contact.jsp">İletişim</a></li>
         </ul>
       </nav>
       <div id="mobile-menu-wrap"></div>
@@ -94,7 +94,7 @@
             <div class="col-lg-6">
               <div class="header__top__left">
                 <ul>
-                  <li><i class="fa fa-envelope"></i>info@balmar.com</li>
+                  <li><i class="fa fa-envelope"></i>destek@balmar.com</li>
                   <li>**SLOGAN**</li>
                 </ul>
               </div>
@@ -120,23 +120,23 @@
         <div class="row">
           <div class="col-lg-3">
             <div class="header__logo">
-              <a href="./index.html"><img src="img/logo.png" alt="" /></a>
+              <a href="./index.jsp"><img src="img/logo.png" alt="" /></a>
             </div>
           </div>
           <div class="col-lg-6">
             <nav class="header__menu">
               <ul>
-                <li><a href="./index.html">Ana Sayfa</a></li>
-                <li class="active"><a href="./shop-grid.html">Alışveriş</a></li>
+                <li><a href="./index.jsp">Ana Sayfa</a></li>
+                <li class="active"><a href="./shop-grid.jsp">Alışveriş</a></li>
                 <li>
                   <a href="#">Pages</a>
                   <ul class="header__menu__dropdown">
-                    <li><a href="./shop-details.html">Shop Details</a></li>
-                    <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                    <li><a href="./checkout.html">Check Out</a></li>
+                    <li><a href="./shop-details.jsp">Shop Details</a></li>
+                    <li><a href="./shoping-cart.jsp">Shoping Cart</a></li>
+                    <li><a href="./checkout.jsp">Check Out</a></li>
                   </ul>
                 </li>
-                <li><a href="./contact.html">İletişim</a></li>
+                <li><a href="./contact.jsp">İletişim</a></li>
               </ul>
             </nav>
           </div>
