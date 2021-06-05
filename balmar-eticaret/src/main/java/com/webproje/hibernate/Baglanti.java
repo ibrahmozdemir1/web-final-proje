@@ -9,13 +9,13 @@ public class Baglanti {
 	public static void main( String[] args ) {
 		SessionFactory factory = new Configuration() 
 						.configure("hibernate.cfg.xml")
-						.addAnnotatedClass(Urunler.class)
+						.addAnnotatedClass(Users.class)
 						.buildSessionFactory();
 		Session session = factory.getCurrentSession();
 		try {
-			Urunler urun = new Urunler("Telefon","Samsung A5",17.90,100);
+			Users user = new Users("Ýbrahim","Özdemir","assadsad","05534620551","ibrahim@gmail.com");
 			session.beginTransaction();
-			session.save(urun);
+			session.save(user);
 			session.getTransaction().commit();
 			
 		} finally {

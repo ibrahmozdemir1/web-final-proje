@@ -30,6 +30,7 @@
 			</div>
 			<span>veya yukarıdaki hesaplarınızla kolayca kayıt olabilirsiniz.</span>
 			<input type="text" placeholder="İsim" />
+			<input type="text" placeholder="Soyisim" />
 			<input type="email" placeholder="E-mail" />
 			<input type="text" placeholder="Telefon Numarası" />
 			<input type="password" placeholder="Şifre" />

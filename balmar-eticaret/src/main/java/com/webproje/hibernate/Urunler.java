@@ -79,7 +79,4 @@ public class Urunler {
 	public void seturunMiktar(int urunMiktar) {
 		this.urunMiktar = urunMiktar;
 	}
-	
-	
-
 }
