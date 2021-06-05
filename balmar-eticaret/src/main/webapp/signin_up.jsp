@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -14,8 +14,8 @@
       <div class="loader"></div>
     </div>
 
-<div>
-	<a href="./index.jsp" >Anasayfa</a>
+<div class="form-container sign-in-container" style="margin-left: 44%">
+<button><a href="./index.jsp" style="color:#ffffff">Anasayfa</a></button>
 </div>
 
 
@@ -45,7 +45,7 @@
 				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
 				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
 			</div>
-			<span>veya yukarıdaki hesplarınızı kullanarak giriş yapın.</span>
+			<span>veya yukarıdaki hesaplarınızı kullanarak giriş yapın.</span>
 			<input type="email" placeholder="E-mail" />
 			<input type="password" placeholder="Şifre" />
 			<a href="#">Şifrenizi mi unuttunuz ?</a>
@@ -61,21 +61,12 @@
 			</div>
 			<div class="overlay-panel overlay-right">
 				<h1>Tekrardan Hoşgeldiniz.</h1>
-				<p>Henüz üyemiz değilseniz alttaki butona tılayarak kolayca üye olabilir, ayrıcalıklı dünyamızdan yararlanabilirsiniz.</p>
+				<p>Henüz üyemiz değilseniz alttaki butona tıklayarak kolayca üye olabilir, ayrıcalıklı dünyamızdan yararlanabilirsiniz.</p>
 				<button class="ghost" id="signUp">Kayıt Ol</button>
 			</div>
 		</div>
 	</div>
 </div>
-
-<footer>
-	<p>
-		Created with <i class="fa fa-heart"></i> by
-		<a target="_blank" href="https://florin-pop.com">Florin Pop</a>
-		- Read how I created this and how you can join the challenge
-		<a target="_blank" href="https://www.florin-pop.com/blog/2019/03/double-slider-sign-in-up-form/">here</a>.
-	</p>
-</footer>
  <!-- Js Plugins -->
 	<script src="js/signin-up.js"></script>
 </body>
