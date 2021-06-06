@@ -74,9 +74,7 @@
           <div class="login-wrap">
             <div class="login-content">
               <div class="login-logo">
-                <a href="#">
-                  <img src="images/icon/logo.png" alt="Balmar" />
-                </a>
+                 <a href="./index.jsp"><img src="img/logo2.png" alt="" /></a>
               </div>
               <div class="login-form">
                 <form action="" method="post">
@@ -103,12 +101,13 @@
                       <input type="checkbox" name="remember" />Hatırla
                     </label>
                     <label>
-                      <a href="#">Şifremi unuttum</a>
+                      <a href="adminForget-pass.jsp">Şifremi unuttum</a>
                     </label>
                   </div>
                   <button
                     class="au-btn au-btn--block au-btn--green m-b-20"
                     type="submit"
+                    href="adminIndex.jsp"
                   >
                     Giriş Yap
                   </button>
