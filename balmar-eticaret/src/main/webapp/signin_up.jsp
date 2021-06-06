@@ -10,9 +10,11 @@
 </head>
 <body>
 <!-- Page Preloder -->
-    <div id="preloder">
+     <div id="preloder">
       <div class="loader"></div>
-    </div>
+    </div> 
+
+
 
 <div class="form-container sign-in-container" style="margin-left: 44%">
 <button><a href="./index.jsp" style="color:#ffffff">Anasayfa</a></button>
@@ -68,6 +70,7 @@
 	</div>
 </div>
  <!-- Js Plugins -->
+
 	<script src="js/signin-up.js"></script>
 </body>
 </html>
