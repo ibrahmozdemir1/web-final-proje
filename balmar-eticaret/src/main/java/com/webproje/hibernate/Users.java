@@ -9,6 +9,8 @@ import javax.persistence.Table;
 
 import org.hibernate.annotations.ColumnDefault;
 
+import net.bytebuddy.asm.Advice.This;
+
 @Entity
 @Table(name = "Users")
 public class Users {
@@ -47,6 +49,14 @@ public class Users {
 		this.userpassword = userpassword;
 		this.usergsm = usergsm;
 		this.usermail = usermail;
+	}
+	
+	public int getuserId() {
+		return userId;
+	}
+	
+	public void setuserId(int userId) {
+		this.userId = userId;
 	}
 	
 	public String getusername() {
