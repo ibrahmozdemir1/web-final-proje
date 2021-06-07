@@ -82,7 +82,7 @@
       <aside class="menu-sidebar2">
         <div class="logo">
           <a href="#">
-            <img src="images/icon/logo-white.png" alt="Cool Admin" />
+            <img src="images/icon/logo-white.png" alt="balmar" />
           </a>
         </div>
         <div class="menu-sidebar2__content js-scrollbar1">
@@ -109,17 +109,17 @@
                 </a>
                 <ul class="list-unstyled navbar__sub-list js-sub-list"> 
                     <li>
-                        <a href="product.jsp">
+                        <a href="adminProduct.jsp">
                           <i class="fas fa-user"></i>Ürün</a
                         >
                       </li>
                   <li>
-                    <a href="order.jsp">
+                    <a href="adminOrder.jsp">
                       <i class="fas fa-user"></i>Siparişler</a
                     >
                   </li>
                   <li>
-                    <a href="endorsement.jsp">
+                    <a href="adminEndorsement.jsp">
                       <i class="fas fa-unlock-alt"></i>Ciro</a
                     >
                   </li>
@@ -143,7 +143,7 @@
               <div class="header-wrap2">
                 <div class="logo d-block d-lg-none">
                   <a href="#">
-                    <img src="images/icon/logo-white.png" alt="CoolAdmin" />
+                    <img src="images/icon/logo-white.png" alt="balmar" />
                   </a>
                 </div>
                 <div class="header-button2">
@@ -247,7 +247,7 @@
         <aside class="menu-sidebar2 js-right-sidebar d-block d-lg-none">
           <div class="logo">
             <a href="#">
-              <img src="images/icon/logo-white.png" alt="Cool Admin" />
+              <img src="images/icon/logo-white.png" alt="balmar" />
             </a>
           </div>
           <div class="menu-sidebar2__content js-scrollbar2">

@@ -74,7 +74,7 @@
           <div class="login-wrap">
             <div class="login-content">
               <div class="login-logo">
-                 <a href="./index.jsp"><img src="img/logo2.png" alt="" /></a>
+                 <a href="./adminIndex.jsp"><img src="img/logo2.png" alt="balmar" /></a>
               </div>
               <div class="login-form">
                 <form action="" method="post">
