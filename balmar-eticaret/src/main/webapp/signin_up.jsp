@@ -23,7 +23,7 @@
 
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
-		<form action="#">
+		<form action="/addUser" method = "get" modelAttribute="command">
 			<h1>Üye Ol</h1>
 			<div class="social-container">
 				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -31,12 +31,12 @@
 				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
 			</div>
 			<span>veya yukarıdaki hesaplarınızla kolayca kayıt olabilirsiniz.</span>
-			<input type="text" placeholder="İsim" />
-			<input type="text" placeholder="Soyisim" />
-			<input type="email" placeholder="E-mail" />
-			<input type="text" placeholder="Telefon Numarası" />
-			<input type="password" placeholder="Şifre" />
-			<button>Kayıt Ol</button>
+			<input type="text" placeholder="İsim" path = "username" />
+			<input type="text" placeholder="Soyisim" path = "usersurname"/>
+			<input type="email" placeholder="E-mail" path = "mail" />
+			<input type="text" placeholder="Telefon Numarası" path = "gsm"/>
+			<input type="password" placeholder="Şifre" path = "password" />
+			<button value = "AddUser">Kayıt Ol</button>
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
