@@ -39,7 +39,7 @@ public class Users {
 	private String usertype = "user";
 	
 	public Users() {
-		
+		super();
 	}
 	
 	public Users(String username,String usersurname,String userpassword,String usergsm,String usermail) {
