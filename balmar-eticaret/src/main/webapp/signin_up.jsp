@@ -23,7 +23,7 @@
 
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
-		<form action = "#">
+		<form id = "kayitol" name = "kayitol" method = "post" action = "usersignup.jsp">
 			<h1>Üye Ol</h1>
 			<div class="social-container">
 				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -31,16 +31,16 @@
 				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
 			</div>
 			<span>veya yukarıdaki hesaplarınızla kolayca kayıt olabilirsiniz.</span>
-			<input type="text" placeholder="İsim"  />
-			<input type="text" placeholder="Soyisim" />
-			<input type="email" placeholder="E-mail"  />
-			<input type="text" placeholder="Telefon Numarası" />
-			<input type="password" placeholder="Şifre" />
-			<button>Kayıt Ol</button>
+			<input type="text" placeholder="İsim" name = "username" id = "username" />
+			<input type="text" placeholder="Soyisim" name = "usersurname" id = "usersurname"/>
+			<input type="email" placeholder="E-mail" name = "mail" id = "mail" />
+			<input type="text" placeholder="Telefon Numarası" name = "gsm" id = "gsm"/>
+			<input type="password" placeholder="Şifre"name = "password" id = "password" />
+			<button type = "submit" name ="kayitgonder" id = "kayitgonder" value ="KAYIT OL">Kayıt Ol</button>
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
-		<form action="#">
+		<form id = "usercontrol" name = "usercontrol" method = "post" action = "usercontrol.jsp">
 			<h1>Giriş Yap</h1>
 			<div class="social-container">
 				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -48,10 +48,10 @@
 				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
 			</div>
 			<span>veya yukarıdaki hesaplarınızı kullanarak giriş yapın.</span>
-			<input type="email" placeholder="E-mail" />
-			<input type="password" placeholder="Şifre" />
+			<input type="email" placeholder="E-mail" name = "usermail" id = "usermail" />
+			<input type="password" placeholder="Şifre" name = "userpassword" id = "userpassword" />
 			<a href="#">Şifrenizi mi unuttunuz ?</a>
-			<button>Giriş Yap</button>
+			<button type = "submit" name = "usercontrol" id ="usercontrol" value = "ARAMA YAP">Giriş Yap</button>
 		</form>
 	</div>
 	<div class="overlay-container">
