@@ -19,7 +19,17 @@
 <div class="form-container sign-in-container" style="margin-left: 44%">
 <button><a href="./index.jsp" style="color:#ffffff">Anasayfa</a></button>
 </div>
-
+	<script>
+	   String kayit = (String)session.getAttribute("kayit");
+       function myFunction() {
+         if(kayit == true ){
+        	 confirm("Kullanıcı Kayıtlı");
+         }
+         else if(kayit == false){
+        	 confirm("Kullanıcı Kayıt Edildi");
+         }
+       }
+    </script>
 
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
@@ -36,7 +46,7 @@
 			<input type="email" placeholder="E-mail" name = "mail" id = "mail" />
 			<input type="text" placeholder="Telefon Numarası" name = "gsm" id = "gsm"/>
 			<input type="password" placeholder="Şifre"name = "password" id = "password" />
-			<button type = "submit" name ="kayitgonder" id = "kayitgonder" value ="KAYIT OL">Kayıt Ol</button>
+			<button type = "submit" name ="kayitgonder" id = "kayitgonder" value ="KAYIT OL" onClick = "myFunction()">Kayıt Ol</button>
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
@@ -66,6 +76,7 @@
 				<p>Henüz üyemiz değilseniz alttaki butona tıklayarak kolayca üye olabilir, ayrıcalıklı dünyamızdan yararlanabilirsiniz.</p>
 				<button class="ghost" id="signUp">Kayıt Ol</button>
 			</div>
+			
 		</div>
 	</div>
 </div>
