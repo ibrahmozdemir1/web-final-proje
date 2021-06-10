@@ -1,54 +1,47 @@
-<%@ page import="java.io.*" %>
-<%@ page language="java" import="java.sql.*"%>
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-   <%
-    String username = request.getParameter("username");
-    String usersurname = request.getParameter("usersurname");
-    String mail = request.getParameter("mail");
-    String gsm = request.getParameter("gsm");
-    String password = request.getParameter("password");
-   %>
+<%@ page import="com.Controller.userController,com.model.userModel,java.util.*,java.io.PrintWriter"
+    language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
     
-    
-   <%
-      String driver = "com.mysql.jdbc.Driver";
-      String url = "jdbc:mysql://localhost:3306/webproje?useUnicode=true&characterEncoding=UTF-8";
-      Connection con = null;
-      int id = 0;
-      try {
-        Class.forName(driver);
-      } catch (Exception e) {
-      System.exit(0);
-      }
-      try {
-      con = DriverManager.getConnection(url, "root", "root");
-      } catch (Exception e) {
-      System.exit(0);
-      }
-   %>
-   <%try {
-      PreparedStatement preStmt;
-      preStmt = con.prepareStatement("INSERT INTO USERS(username,usersurname,usermail,usergsm,userpassword) VALUES (?,?,?,?,?)");
-      preStmt.setString(1, username);
-      preStmt.setString(2, usersurname);
-      preStmt.setString(3, mail);
-      preStmt.setString(4, gsm);
-      preStmt.setString(5, password);
-      preStmt.executeUpdate();
-      preStmt.close();
-      con.close();
-      response.sendRedirect("signin_up.jsp");
-     }
-     catch (Exception e) {
-          out.println(e);
-     }
+    <script>
+	   String kayit = (String)session.getAttribute("kayit");
+       function myFunction() {
+         if(kayit == true ){
+        	 confirm("Kullanıcı Kayıtlı");
+         }
+         else if(kayit == false){
+        	 confirm("Kullanıcı Kayıt Edildi");
+         }
+       }
+    </script>
+<%
+
+	boolean result=false;
+
+	String username = request.getParameter("username");
+	String usersurname = request.getParameter("usersurname");
+	String usermail = request.getParameter("mail");
+	String usergsm = request.getParameter("gsm");
+	String userpassword = request.getParameter("password");
+
+	userController uDao=new userController();
+	List<userModel> uyeler=uDao.readingData();
+
+	for(userModel uye:uyeler) {
+			
+		if(uye.getusermail().equals(usermail)) {
+		
+			result=true;
+			break;
+		}
+	}
+    if(result == true){
+        session.setAttribute("kayit", "true");
+        response.sendRedirect("signin_up.jsp");
+    }
+    else{
+    	session.setAttribute("kayit","false");
+	    userModel uModel=new userModel(username,usersurname,usermail,usergsm,userpassword);
+	    uDao.Add(uModel);
+	    response.sendRedirect("signin_up.jsp");
+    }
 %>
-</body>
-</html>
