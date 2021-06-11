@@ -307,10 +307,10 @@
                       ÜRÜN EKLE
                     </div>
                     <div class="login-form" >
-                      <form action="" method="post">
+                      <form action="urunEkle.jsp" method="post">
                         <div class="form-group">
                           <label>Kategori Adı</label>
-                          <select class="custom-select">
+                          <select class="custom-select" name = "urunKategori" id = "urunKategori">
                             <option value="0">Kategori Seçiniz :</option>
                             <option value="1">Telefon</option>
                             <option value="2">Bilgisayar</option>
@@ -322,29 +322,50 @@
                           <input
                             class="au-input au-input--full"
                             type="text"
-                            name="ürünAdı"
+                            name="urunAdi"
+                            id = "urunAdi"
                             placeholder="Ürün Adını Giriniz"
                           />
                         </div>
                         <div class="form-group">
-                            <label>Fiyat</label>
+                            <label>Ürün Detayı</label>
                             <input
                               class="au-input au-input--full"
                               type="text"
-                              name="fiyat"
+                              name="urunAciklama"
+                              id = "urunAciklama"
+                              placeholder="Ürün Fiyatını Giriniz"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label>Ürün Fiyatı</label>
+                            <input
+                              class="au-input au-input--full"
+                              type="text"
+                              name="urunFiyat"
+                              id = "urunFiyat"
                               placeholder="Ürün Fiyatını Giriniz"
                             />
                           </div>
-                          <div class="form-group">
-                            <label>Adet</label>
+                        <div class="form-group">
+                            <label>Ürün Miktarı</label>
                             <input
                               class="au-input au-input--full"
                               type="text"
-                              name="adet"
+                              name="urunMiktar"
+                              id = "urunMiktar"
                               placeholder="Ürün Adedini Giriniz"
                             />
                           </div>
-                       
+                         <div class="form-group">
+                          <label>Fotoğraf Seç</label>
+                          <input
+                            class="au-input au-input--full"
+                            type="file"
+                            name="urunFotograf"
+                            id = "urunFotograf"
+                          />
+                         </div>
                         <button
                           class="au-btn au-btn--block au-btn--green m-b-20"
                           type="submit"
