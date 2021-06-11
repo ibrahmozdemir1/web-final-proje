@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "Urunler")
-public class Urunler {
+public class urunlerModel {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -18,6 +18,12 @@ public class Urunler {
 	
 	@Column(name = "urunAdi")
 	private String urunAdi;
+	
+	@Column(name = "urunKategori")
+	private String urunKategori;
+	
+	@Column(name = "urunFotograf")
+	private String urunFotograf;
 	
 	@Column(name = "urunAciklama")
 	private String urunAciklama;
@@ -28,14 +34,16 @@ public class Urunler {
 	@Column(name = "urunMiktar")
 	private int urunMiktar;
 	
-	public Urunler() {
+	public urunlerModel() {
 		
 	}
 	
-	public Urunler(String urunAdi,String urunAciklama,double urunFiyat,int urunMiktar) {
+	public urunlerModel(String urunAdi,String urunKategori,String urunFotograf,String urunAciklama,double urunFiyat,int urunMiktar) {
 		super();
 		this.urunAdi = urunAdi;
 		this.urunAciklama = urunAciklama;
+		this.urunKategori = urunKategori;
+		this.urunFotograf = urunFotograf;
 		this.urunFiyat = urunFiyat;
 		this.urunMiktar = urunMiktar;
 	}
@@ -62,6 +70,22 @@ public class Urunler {
 	
 	public void seturunAciklama(String urunAciklama) {
 		this.urunAciklama = urunAciklama;
+	}
+	
+	public String geturunKategori() {
+		return urunKategori;
+	}
+	
+	public void seturunKategori(String urunKategori) {
+		this.urunKategori = urunKategori;
+	}
+	
+	public String geturunFotograf() {
+		return urunFotograf;
+	}
+	
+	public void seturunFotograf(String urunFotograf) {
+		this.urunFotograf = urunFotograf;
 	}
 	
 	public double geturunFiyat() {
