@@ -67,6 +67,17 @@
     <link href="css/theme.css" rel="stylesheet" media="all" />
   </head>
 
+						<%
+                		 String oturum = (String)session.getAttribute("adminSession");
+ 						 if(oturum=="false"){
+ 							
+ 							
+ 							%>
+ 							<div class="alert alert-danger mx-3"  role="alert">
+ 	      					Kullanici Adi veya Parola Yanlis
+ 	    				</div>
+ 						<% }
+					%>
   <body class="animsition">
     <div class="page-wrapper">
       <div class="page-content--bge5">
@@ -82,8 +93,8 @@
                     <label>Kullanıcı Adı</label>
                     <input
                       class="au-input au-input--full"
-                      type="userId"
-                      name="userId"
+                      type="text"
+                      name="adminId"
                       placeholder="Kullanıcı adını giriniz"
                     />
                   </div>
@@ -92,7 +103,7 @@
                     <input
                       class="au-input au-input--full"
                       type="password"
-                      name="password"
+                      name="adminPassword"
                       placeholder="Şifrenizi Giriniz"
                     />
                   </div>
@@ -107,7 +118,8 @@
                   <button
                     class="au-btn au-btn--block au-btn--green m-b-20"
                     type="submit"
-                    href="adminIndex.jsp"
+                    method= "post"
+                    href="adminLoginControl.jsp"
                   >
                     Giriş Yap
                   </button>
