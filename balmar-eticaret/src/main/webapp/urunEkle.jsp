@@ -2,26 +2,25 @@
 
 <%
 try{
-	      String urunAdi=request.getParameter("urunAdi");
-	      String urunKategori =request.getParameter("urunKategori");
-	      String urunFotograf=request.getParameter("urunFotograf");
-	      String urunAciklama=request.getParameter("urunAciklama");
-	      String urunFiyat =request.getParameter("urunFiyat");
-	      double uFiyat=Double.valueOf(urunFiyat);
-
+	    String urunAdi=request.getParameter("urunAdi");
+	    String urunKategori =request.getParameter("urunKategori");
+	    String urunFotograf=request.getParameter("urunFotograf");
+	    String urunAciklama=request.getParameter("urunAciklama");
+	    String urunFiyat =request.getParameter("urunFiyat");
+	    double uFiyat=Double.valueOf(urunFiyat);
 		String urunMiktar=request.getParameter("urunMiktar");
 		int uMiktar =Integer.valueOf(urunMiktar);
 		
 		
 		urunlerModel urun=new urunlerModel(urunAdi,urunKategori,urunFotograf,urunAciklama,uFiyat,uMiktar);
-		urunController dbi=new urunController();
+		urunController dbi = new urunController();
 		boolean result=dbi.control(urun);
 		dbi.Add(urun);
 		if(result){
-		
+			response.sendRedirect("adminAddProduct.jsp");
 		}
 		else{
-			System.out.println("Ürün Eklenemedi");
+			response.sendRedirect("index.jsp");
 		}
 }
 catch(Exception e){
