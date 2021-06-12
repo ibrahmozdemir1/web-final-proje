@@ -361,7 +361,8 @@
                           <label>Fotoğraf Seç</label>
                           <input
                             class="au-input au-input--full"
-                            type="file"
+                            aria-describedby="inputGroupPrepend"
+                            type="text"
                             name="urunFotograf"
                             id = "urunFotograf"
                           />
