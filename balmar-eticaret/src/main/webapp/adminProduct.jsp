@@ -1,5 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"
+    import ="com.Controller.urunController,com.model.urunlerModel,java.util.*"%>
+    
+    <%
+		urunController data=new urunController();
+		List<urunlerModel> urunler = data.readingData();
+     %>
     <!DOCTYPE html>
 <html lang="tr">
   <head>
@@ -310,29 +316,29 @@
                                     <th>Fiyat</th>
                                     <th>Stok Adedi</th>
                                     <th>Güncelle</th>
+                                    <th>Güncelle</th>
                                     <th>Sil</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>2018-09-29 05:57</td>
-                                    <td>Telefon</td>
-                                    <td>iPhone X 64Gb Gri</td>
-                                    <td>999.00₺</td>
-                                    <td>25</td>
-                                    <td> <button type="button" class="btn btn-warning btn-sm">Güncelle</button></td>
-                                    <td> <button type="button" class="btn btn-danger btn-sm">Ürün Sil</button></td>
-                                </tr>
-                                <tr>
-                                    <td>2018-09-29 05:57</td>
-                                    <td>Telefon</td>
-                                    <td>iPhone X 64Gb Gri</td>
-                                    <td>999.00₺</td>
-                                    <td>25</td>
-                                    <td> <button type="button" class="btn btn-warning btn-sm">Güncelle</button></td>
-                                    <td> <button type="button" class="btn btn-danger btn-sm">Ürün Sil</button></td>
-                                </tr>
-                                
+		                     <%for(urunlerModel urun:urunler){
+		                     %>
+		                      <tr>
+		                           <th scope="row"><%= urun.geturunId() %></th>
+		                           <td><%= urun.geturunAdi() %></td>
+		                           <td><%= urun.geturunKategori() %></td>
+		             
+		                           <td><%= urun.geturunAciklama() %></td>
+		                           <td><%= urun.geturunFiyat() %></td>
+		                           <td><%= urun.geturunMiktar() %></td>
+		                           <td><button type="button" class="btn btn-secondary " data-toggle="modal" data-target="#exampleModalLong8">
+		                                   Guncelle
+		                               </button><a href="urunSil.jsp?<%= urun.geturunId() %>"><button type="button" class="btn btn-danger ml-2">
+		                                            Sil
+		                                        </button></a></td>
+		                       </tr>
+		                     <%}
+		                     %>
                             </tbody>
                         </table>
                     </div>

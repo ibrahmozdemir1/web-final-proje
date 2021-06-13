@@ -36,8 +36,9 @@ public class urunlerModel {
 	@Column(name = "urunMiktar")
 	private int urunMiktar;
 	
-	public urunlerModel() {
+	public urunlerModel(int urunId) {
 		
+		this.urunId = urunId;
 	}
 	
 	public urunlerModel(String urunAdi,String urunKategori,String urunFotograf,String urunAciklama,double urunFiyat,int urunMiktar) {
