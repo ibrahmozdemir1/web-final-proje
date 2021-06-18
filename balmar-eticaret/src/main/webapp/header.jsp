@@ -29,7 +29,7 @@
               <div class="header__top__left">
                 <ul>
                   <li><i class="fa fa-envelope"></i> info@balmar.com</li>
-                  <li>*slogan*</li>
+                  <li>Güvenli Alışverişin Tek Adresi</li>
                 </ul>
               </div>
             </div>
@@ -57,7 +57,7 @@
             <nav class="header__menu">
               <ul>
                 <li><a href="./index.jsp">Ana Sayfa</a></li>
-                <li class="active"><a href="./shop-grid.jsp">Alışveriş</a></li>
+                <li><a href="./shop-grid.jsp">Alışveriş</a></li>
                 <li><a href="#">Sayfalar</a>
                     <ul class="header__menu__dropdown">
                         <li><a href="./shop-details.jsp">Alışveriş Detayları</a></li>
@@ -73,11 +73,11 @@
             <div class="header__cart">
               <ul>
                 <li>
-                  <a href="#"><i class="fa fa-heart"></i> <span>1</span></a>
+                  <a href="#"><i class="fa fa-heart"></i> <span></span></a>
                 </li>
                 <li>
                   <a href="#"
-                    ><i class="fa fa-shopping-bag"></i> <span>3</span></a
+                    ><i class="fa fa-shopping-bag"></i> <span></span></a
                   >
                 </li>
               </ul>

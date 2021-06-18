@@ -103,7 +103,7 @@
                     <div class="hero__search">
                         <div class="hero__search__form">
                             <form action="#">
-                                <input type="text" placeholder="Aradığınız ürün nedir?">
+                                <input type="text" placeholder="Neye ihtiyacınız var ?" >
                                 <button type="submit" class="site-btn">ARA</button>
                             </form>
                         </div>
@@ -112,7 +112,7 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+0212 212 2121</h5>
+                                <h5>+90 555 55 55</h5>
                                 <span>7/24 Destek</span>
                             </div>
                         </div>
@@ -311,25 +311,7 @@
         </div>
     </section>
     <!-- Featured Section End -->
-
-    <!-- Banner Begin -->
-    <div class="banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="banner__pic">
-                        <img src="img/banner/banner-1.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="banner__pic">
-                        <img src="img/banner/banner-2.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Banner End -->
+    
      <%@include file="footer.jsp" %>
 
     <!-- Js Plugins -->

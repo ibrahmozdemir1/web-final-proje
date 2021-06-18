@@ -78,7 +78,7 @@
       <div class="humberger__menu__contact">
         <ul>
           <li><i class="fa fa-envelope"></i> info@balmar.com</li>
-          <li>**SLOGAN**</li>
+          <li>Güvenli Alışverişin Tek Adresi</li>
         </ul>
       </div>
     </div>
@@ -96,26 +96,22 @@
                 <i class="fa fa-bars"></i>
                 <span>Tüm Kategoriler</span>
               </div>
-              <ul>
-                <li><a href="#">Et Ürünleri</a></li>
-                <li><a href="#">Sebzeler</a></li>
-                <li><a href="#">Meyveler</a></li>
-                <li><a href="#">Taze orman meyveleri</a></li>
-                <li><a href="#">Okyanus Yiyecekleri</a></li>
-                <li><a href="#">Tereyağı ve Yumurta</a></li>
-                <li><a href="#">Fast food</a></li>
-                <li><a href="#">Yulaf ezmesi</a></li>
-              </ul>
+             <ul>
+                 <li><a href="#">Akıllı Telefonlar</a></li>
+                 <li><a href="#">Dizüstü Bilgisayarlar</a></li>
+                 <li><a href="#">Monitörler</a></li>
+                 <li><a href="#">Kasalar</a></li>
+                 <li><a href="#">Bilgisayar Donanımları</a></li>
+                 <li><a href="#">Tabletler</a></li>
+                 <li><a href="#">Telefon Aksesuarları</a></li>
+                 <li><a href="#">Televizyonlar</a></li>
+             </ul>
             </div>
           </div>
           <div class="col-lg-9">
             <div class="hero__search">
               <div class="hero__search__form">
                 <form action="#">
-                  <div class="hero__search__categories">
-                    Tüm kategoriler
-                    <span class="arrow_carrot-down"></span>
-                  </div>
                   <input type="text" placeholder="Neye ihtiyacınız var ?" />
                   <button type="submit" class="site-btn">ARA</button>
                 </form>
@@ -163,14 +159,14 @@
               <div class="sidebar__item">
                 <h4>Tüm Kategoriler</h4>
                 <ul>
-                  <li><a href="#">Et Ürünleri</a></li>
-                  <li><a href="#">Sebzeler</a></li>
-                  <li><a href="#">Meyveler</a></li>
-                  <li><a href="#">Taze orman meyveleri</a></li>
-                  <li><a href="#">Okyanus Yiyecekleri</a></li>
-                  <li><a href="#">Tereyağı ve Yumurta</a></li>
-                  <li><a href="#">Fast food</a></li>
-                  <li><a href="#">Yulaf ezmesi</a></li>
+                 <li><a href="#">Akıllı Telefonlar</a></li>
+                 <li><a href="#">Dizüstü Bilgisayarlar</a></li>
+                 <li><a href="#">Monitörler</a></li>
+                 <li><a href="#">Kasalar</a></li>
+                 <li><a href="#">Bilgisayar Donanımları</a></li>
+                 <li><a href="#">Tabletler</a></li>
+                 <li><a href="#">Telefon Aksesuarları</a></li>
+                 <li><a href="#">Televizyonlar</a></li>
                 </ul>
               </div>
               <div class="sidebar__item">

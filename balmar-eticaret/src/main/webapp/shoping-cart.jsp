@@ -80,7 +80,7 @@
     <%@include file="header.jsp" %>
 
     <!-- Hero Section Begin -->
-    <section class="hero">
+    <section class="hero hero-normal">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -90,14 +90,14 @@
                             <span>Tüm Katagoriler</span>
                         </div>
                         <ul>
-                            <li><a href="#">Taze Et</a></li>
-                            <li><a href="#">Sebze</a></li>
-                            <li><a href="#">Meyve & Kuruyemişler</a></li>
-                            <li><a href="#">Taze Orman Meyveleri</a></li>
-                            <li><a href="#">Deniz Ürünleri</a></li>
-                            <li><a href="#">Tereyağı & Yumurta</a></li>
-                            <li><a href="#">Fastfood</a></li>
-                            <li><a href="#">Yulaf Ezmesi</a></li>
+                         <li><a href="#">Akıllı Telefonlar</a></li>
+		                 <li><a href="#">Dizüstü Bilgisayarlar</a></li>
+		                 <li><a href="#">Monitörler</a></li>
+		                 <li><a href="#">Kasalar</a></li>
+		                 <li><a href="#">Bilgisayar Donanımları</a></li>
+		                 <li><a href="#">Tabletler</a></li>
+		                 <li><a href="#">Telefon Aksesuarları</a></li>
+		                 <li><a href="#">Televizyonlar</a></li>
                         </ul>
                     </div>
                 </div>
@@ -105,10 +105,6 @@
                     <div class="hero__search">
                         <div class="hero__search__form">
                             <form action="#">
-                                <div class="hero__search__categories">
-                                    Tüm Katagoriler
-                                    <span class="arrow_carrot-down"></span>
-                                </div>
                                 <input type="text" placeholder="What do yo u need?">
                                 <button type="submit" class="site-btn">ARA</button>
                             </form>
@@ -118,7 +114,7 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+65 11.188.888</h5>
+                                <h5>+90 555 55 55</h5>
                                 <span>7/24 Destek</span>
                             </div>
                         </div>
