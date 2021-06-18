@@ -58,11 +58,11 @@
               <ul>
                 <li><a href="./index.jsp">Ana Sayfa</a></li>
                 <li class="active"><a href="./shop-grid.jsp">Alışveriş</a></li>
-                <li><a href="#">Pages</a>
+                <li><a href="#">Sayfalar</a>
                     <ul class="header__menu__dropdown">
-                        <li><a href="./shop-details.jsp">Shop Details</a></li>
-                        <li><a href="./shoping-cart.jsp">Shoping Cart</a></li>
-                        <li><a href="./checkout.jsp">Check Out</a></li>
+                        <li><a href="./shop-details.jsp">Alışveriş Detayları</a></li>
+                        <li><a href="./shoping-cart.jsp">Alışveriş Sepeti</a></li>
+                        <li><a href="./checkout.jsp">Ödeme</a></li>
                     </ul>
                 </li>
                 <li><a href="./contact.jsp">İletişim</a></li>
@@ -82,7 +82,7 @@
                 </li>
               </ul>
               <div class="header__top__right__auth">
-                  <a href="#"><i class="fa fa-user"></i> Giriş Yap</a>
+                  <a href="./signin_up.jsp"><i class="fa fa-user"></i> Giriş Yap</a>
                 </div>
             </div>
           </div>
