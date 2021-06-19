@@ -74,7 +74,7 @@
             <div class="login-content">
               <div class="login-logo">
                 <a href="#">
-                  <img src="images/icon/logo2.png" alt="balmar" />
+                  <img src="img/logo2.png" alt="balmar" />
                 </a>
               </div>
               <div class="login-form">

@@ -334,7 +334,7 @@
                               type="text"
                               name="urunAciklama"
                               id = "urunAciklama"
-                              placeholder="Ürün Fiyatını Giriniz"
+                              placeholder="Ürün Açıklamasını Giriniz"
                             />
                         </div>
                         <div class="form-group">

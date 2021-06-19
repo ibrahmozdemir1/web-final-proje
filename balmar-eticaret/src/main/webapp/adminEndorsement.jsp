@@ -86,14 +86,14 @@
             <div class="image img-cir img-120">
               <img src="img/icon/avatar-big-01.jpg" alt="John Doe" />
             </div>
-            <h4 class="name">john doe</h4>
-            <a href="#">Sign out</a>
+            <h4 class="name">Oğuzcan KATAR</h4>
+            <a href="#">Çıkış Yap</a>
           </div>
           <nav class="navbar-sidebar2">
             <ul class="list-unstyled navbar__list">
-              <li class="active has-sub">
+              <li class="has-sub">
                 <a class="js-arrow" href="adminIndex.jsp">
-                  <i class="fas fa-tachometer-alt"></i>Dashboard
+                  <i class="fas fa-tachometer-alt"></i>Ana Panel
                 </a>
               </li>
               <li class="has-sub">
@@ -114,7 +114,7 @@
                       <i class="fas fa-user"></i>Siparişler</a
                     >
                   </li>
-                  <li>
+                  <li class="active">
                     <a href="adminEndorsement.jsp">
                       <i class="fas fa-unlock-alt"></i>Ciro</a
                     >
@@ -251,8 +251,8 @@
               <div class="image img-cir img-120">
                 <img src="img/icon/avatar-big-01.jpg" alt="John Doe" />
               </div>
-              <h4 class="name">john doe</h4>
-              <a href="#">Sign out</a>
+              <h4 class="name">Oğuzcan KATAR</h4>
+              <a href="#">Çıkış Yap</a>
             </div>
             <nav class="navbar-sidebar2">
               <ul class="list-unstyled navbar__list">

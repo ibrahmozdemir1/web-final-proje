@@ -85,14 +85,14 @@
             <div class="image img-cir img-120">
               <img src="img/icon/avatar-big-01.jpg" alt="John Doe" />
             </div>
-            <h4 class="name">john doe</h4>
-            <a href="#">Sign out</a>
+            <h4 class="name">Oğuzcan KATAR</h4>
+            <a href="#">Çıkış Yap</a>
           </div>
           <nav class="navbar-sidebar2">
             <ul class="list-unstyled navbar__list">
               <li class="active has-sub">
                 <a class="js-arrow" href="#">
-                  <i class="fas fa-tachometer-alt"></i>Dashboard
+                  <i class="fas fa-tachometer-alt"></i>Ana Panel
                 </a>
               </li>
               <li class="has-sub">
@@ -300,19 +300,16 @@
                 <div class="col-md-12">
                   <div class="au-breadcrumb-content">
                     <div class="au-breadcrumb-left">
-                      <span class="au-breadcrumb-span">You are here:</span>
+                      <span class="au-breadcrumb-span">Şuan buradasınız:</span>
                       <ul class="list-unstyled list-inline au-breadcrumb__list">
                         <li class="list-inline-item active">
-                          <a href="#">Home</a>
+                          <a href="/adminIndex.jsp">Ana Panel</a>
                         </li>
-                        <li class="list-inline-item seprate">
-                          <span>/</span>
-                        </li>
-                        <li class="list-inline-item">Dashboard</li>
+                        
                       </ul>
                     </div>
                     <button class="au-btn au-btn-icon au-btn--green">
-                      <i class="zmdi zmdi-plus"></i>add item
+                      <i class="zmdi zmdi-plus"></i>Ürün Ekle
                     </button>
                   </div>
                 </div>
@@ -329,8 +326,8 @@
               <div class="row">
                 <div class="col-md-6 col-lg-3">
                   <div class="statistic__item">
-                    <h2 class="number">10,368</h2>
-                    <span class="desc">members online</span>
+                    <h2 class="number">6</h2>
+                    <span class="desc">kullanıcı online</span>
                     <div class="icon">
                       <i class="zmdi zmdi-account-o"></i>
                     </div>
@@ -338,8 +335,8 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                   <div class="statistic__item">
-                    <h2 class="number">388,688</h2>
-                    <span class="desc">items sold</span>
+                    <h2 class="number">20</h2>
+                    <span class="desc">ürün satıldı</span>
                     <div class="icon">
                       <i class="zmdi zmdi-shopping-cart"></i>
                     </div>
@@ -347,8 +344,8 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                   <div class="statistic__item">
-                    <h2 class="number">1,086</h2>
-                    <span class="desc">this week</span>
+                    <h2 class="number">5</h2>
+                    <span class="desc">bu hafta</span>
                     <div class="icon">
                       <i class="zmdi zmdi-calendar-note"></i>
                     </div>
@@ -356,8 +353,8 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                   <div class="statistic__item">
-                    <h2 class="number">$1,060,386</h2>
-                    <span class="desc">total earnings</span>
+                    <h2 class="number">2500 ₺</h2>
+                    <span class="desc">toplam kazanç</span>
                     <div class="icon">
                       <i class="zmdi zmdi-money"></i>
                     </div>
@@ -376,32 +373,32 @@
                 <div class="col-xl-8">
                   <!-- RECENT REPORT 2-->
                   <div class="recent-report2">
-                    <h3 class="title-3">recent reports</h3>
+                    <h3 class="title-3">Son Raporlar</h3>
                     <div class="chart-info">
                       <div class="chart-info__left">
                         <div class="chart-note">
                           <span class="dot dot--blue"></span>
-                          <span>products</span>
+                          <span>ürün</span>
                         </div>
                         <div class="chart-note">
                           <span class="dot dot--green"></span>
-                          <span>Services</span>
+                          <span>müşteri</span>
                         </div>
                       </div>
                       <div class="chart-info-right">
                         <div class="rs-select2--dark rs-select2--md m-r-10">
                           <select class="js-select2" name="property">
-                            <option selected="selected">All Properties</option>
-                            <option value="">Products</option>
-                            <option value="">Services</option>
+                            <option selected="selected">Filtre</option>
+                            <option value="">Ürünler</option>
+                            <option value="">Müşteriler</option>
                           </select>
                           <div class="dropDownSelect2"></div>
                         </div>
                         <div class="rs-select2--dark rs-select2--sm">
                           <select class="js-select2 au-select-dark" name="time">
-                            <option selected="selected">All Time</option>
-                            <option value="">By Month</option>
-                            <option value="">By Day</option>
+                            <option selected="selected">Sırala</option>
+                            <option value="">Ay'a Göre</option>
+                            <option value="">Gün'e Görey</option>
                           </select>
                           <div class="dropDownSelect2"></div>
                         </div>
@@ -416,10 +413,10 @@
                 <div class="col-xl-4">
                   <!-- TASK PROGRESS-->
                   <div class="task-progress">
-                    <h3 class="title-3">task progress</h3>
+                    <h3 class="title-3">Şirket</h3>
                     <div class="au-skill-container">
                       <div class="au-progress">
-                        <span class="au-progress__title">Web Design</span>
+                        <span class="au-progress__title">Ürün Pazarlama</span>
                         <div class="au-progress__bar">
                           <div
                             class="au-progress__inner js-progressbar-simple"
@@ -431,7 +428,7 @@
                         </div>
                       </div>
                       <div class="au-progress">
-                        <span class="au-progress__title">HTML5/CSS3</span>
+                        <span class="au-progress__title">Kargo</span>
                         <div class="au-progress__bar">
                           <div
                             class="au-progress__inner js-progressbar-simple"
@@ -443,7 +440,7 @@
                         </div>
                       </div>
                       <div class="au-progress">
-                        <span class="au-progress__title">WordPress</span>
+                        <span class="au-progress__title">İrsaliye</span>
                         <div class="au-progress__bar">
                           <div
                             class="au-progress__inner js-progressbar-simple"
@@ -455,7 +452,7 @@
                         </div>
                       </div>
                       <div class="au-progress">
-                        <span class="au-progress__title">Support</span>
+                        <span class="au-progress__title">Teknik Destek</span>
                         <div class="au-progress__bar">
                           <div
                             class="au-progress__inner js-progressbar-simple"

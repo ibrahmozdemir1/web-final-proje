@@ -86,14 +86,14 @@
             <div class="image img-cir img-120">
               <img src="img/icon/avatar-big-01.jpg" alt="John Doe" />
             </div>
-            <h4 class="name">john doe</h4>
-            <a href="#">Sign out</a>
+            <h4 class="name">Oğuzcan KATAR</h4>
+            <a href="#">Çıkış Yap</a>
           </div>
           <nav class="navbar-sidebar2">
             <ul class="list-unstyled navbar__list">
-              <li class="active has-sub">
+              <li class="has-sub">
                 <a class="js-arrow" href="adminIndex.jsp">
-                  <i class="fas fa-tachometer-alt"></i>Dashboard
+                  <i class="fas fa-tachometer-alt"></i>Ana Panel
                 </a>
               </li>
               <li class="has-sub">
@@ -109,7 +109,7 @@
                           <i class="fas fa-user"></i>Ürün</a
                         >
                       </li>
-                  <li>
+                  <li class="active">
                     <a href="adminOrder.jsp">
                       <i class="fas fa-user"></i>Siparişler</a
                     >
@@ -251,14 +251,14 @@
               <div class="image img-cir img-120">
                 <img src="img/icon/avatar-big-01.jpg" alt="John Doe" />
               </div>
-              <h4 class="name">john doe</h4>
-              <a href="#">Sign out</a>
+              <h4 class="name">Oğuzcan KATAR</h4>
+              <a href="#">Çıkış Yap</a>
             </div>
             <nav class="navbar-sidebar2">
               <ul class="list-unstyled navbar__list">
-                <li class="active has-sub">
+                <li class="has-sub">
                   <a class="js-arrow" href="adminIndex.jsp">
-                    <i class="fas fa-tachometer-alt"></i>Dashboard
+                    <i class="fas fa-tachometer-alt"></i>Ana Panel
                   </a>
                 </li>
                 <li class="has-sub">
@@ -274,7 +274,7 @@
                         <i class="fas fa-sign-in-alt"></i>Ürün</a
                       >
                     </li>
-                    <li>
+                    <li class="active ">
                       <a href="adminOrder.jsp">
                         <i class="fas fa-user"></i>Sipariş</a
                       >
@@ -332,7 +332,7 @@
                                 </div>
                             </td>
                             <td>
-                              *isim*
+                              Mehmet Emin KONUK
                             </td>
                             <td>
                               <input class="btn btn-outline-info" type="button" value="Detay">
@@ -353,13 +353,13 @@
                               </div>
                           </td>
                           <td>
-                            *isim*
+                            İbrahim Özdemir
                           </td>
                           <td>
                             <input class="btn btn-outline-info" type="button" value="Detay">
                           </td>
                           <td>
-                             538,00₺
+                             1538,00₺
                           </td>
                           <td>
                             <span class="status--denied">Teslim Edilmedi</span>
