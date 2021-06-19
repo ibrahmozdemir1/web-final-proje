@@ -50,7 +50,7 @@
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
-		<form id = "usercontrol" name = "usercontrol" method = "post" action = "usercontrol.jsp">
+		<form id = "usercontrol" name = "usercontrol" method = "post" action = "index.jsp">
 			<h1>Giriş Yap</h1>
 			<div class="social-container">
 				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>

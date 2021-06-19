@@ -60,7 +60,6 @@
                 <li><a href="./shop-grid.jsp">Alışveriş</a></li>
                 <li><a href="#">Sayfalar</a>
                     <ul class="header__menu__dropdown">
-                        <li><a href="./shop-details.jsp">Alışveriş Detayları</a></li>
                         <li><a href="./shoping-cart.jsp">Alışveriş Sepeti</a></li>
                         <li><a href="./checkout.jsp">Ödeme</a></li>
                     </ul>

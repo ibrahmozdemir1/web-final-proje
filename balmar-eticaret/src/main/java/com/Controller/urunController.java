@@ -26,7 +26,7 @@ public class urunController extends databaseConnection{
 	            while(rs.next())
 	            {
 	            	urunlerModel urun =new urunlerModel(rs.getString("urunAdi"),rs.getString("urunKategori"),
-	            			rs.getString("urunFotoðraf"),rs.getString("urunAciklama"),rs.getInt("urunFiyat"),rs.getInt("urunMiktar"));
+	            			rs.getString("urunAciklama"),rs.getInt("urunFiyat"),rs.getInt("urunMiktar"));
 	            		
 	            	liste.add(urun);
 	            }
@@ -66,7 +66,7 @@ public class urunController extends databaseConnection{
 	            while(rs.next())
 	            {
 	            	urunlerModel urun =new urunlerModel(rs.getString("urunAdi"),rs.getString("urunKategori"),
-	            			rs.getString("urunFotoðraf"),rs.getString("urunAciklama"),rs.getInt("urunFiyat"),rs.getInt("urunMiktar"));
+	            			rs.getString("urunAciklama"),rs.getInt("urunFiyat"),rs.getInt("urunMiktar"));
 	            		
 	            	liste.add(urun);
 	            }
@@ -97,7 +97,7 @@ public class urunController extends databaseConnection{
 		   	  
 			
 		 	   try {
-		 		   String sorgu="INSERT INTO urunler(urunAdi,urunKategori,urunFotograf,urunAciklama,urunFiyat,urunMiktar) VALUES(?,?,?,?,?,?)";
+		 		   String sorgu="INSERT INTO urunler(urunAdi,urunKategori,urunAciklama,urunFiyat,urunMiktar) VALUES(?,?,?,?,?)";
 		 		   Class.forName("com.mysql.cj.jdbc.Driver");
 		 		    con=DriverManager.getConnection("jdbc:mysql://localhost:3306/webproje","root","root");
 		            ps=con.prepareStatement(sorgu);
@@ -105,10 +105,9 @@ public class urunController extends databaseConnection{
 		            
 		            ps.setString(1, urun.geturunAdi());
 		            ps.setString(2, urun.geturunKategori());
-		            ps.setString(3, urun.geturunFotograf());
-		            ps.setString(4, urun.geturunAciklama());
-		            ps.setDouble(5, urun.geturunFiyat());
-		            ps.setInt(6, urun.geturunMiktar());
+		            ps.setString(3, urun.geturunAciklama());
+		            ps.setDouble(4, urun.geturunFiyat());
+		            ps.setInt(5, urun.geturunMiktar());
 
 		          
 		            ps.executeUpdate();
@@ -186,17 +185,16 @@ public class urunController extends databaseConnection{
 		  
 				
 				try {
-					String sorgu="UPDATE urunler SET urunAdi=?,urunKategori=?,urunFotograf=?,urunAciklama=?,urunFiyat=?,urunMiktar=? WHERE urunId=?";
+					String sorgu="UPDATE urunler SET urunAdi=?,urunKategori=?,urunAciklama=?,urunFiyat=?,urunMiktar=? WHERE urunId=?";
 					Class.forName("com.mysql.cj.jdbc.Driver");
 					con=DriverManager.getConnection("jdbc:mysql://localhost:3306/webproje","root","root");
 					ps=con.prepareStatement(sorgu);	    
 			        
 					ps.setString(1, urun.geturunAdi());
 		            ps.setString(2, urun.geturunKategori());
-		            ps.setString(3, urun.geturunFotograf());
-		            ps.setString(4, urun.geturunAciklama());
-		            ps.setDouble(5, urun.geturunFiyat());
-		            ps.setInt(6, urun.geturunMiktar());
+		            ps.setString(3, urun.geturunAciklama());
+		            ps.setDouble(4, urun.geturunFiyat());
+		            ps.setInt(5, urun.geturunMiktar());
 		            
 			        ps.executeUpdate();
 				   }
@@ -276,7 +274,7 @@ public class urunController extends databaseConnection{
 			            
 			           
 			            	urunler = new urunlerModel(rs.getString("urunAdi"),rs.getString("urunKategori"),
-			            			rs.getString("urunFotoðraf"),rs.getString("urunAciklama"),rs.getInt("urunFiyat"),rs.getInt("urunMiktar"));
+			            			rs.getString("urunAciklama"),rs.getInt("urunFiyat"),rs.getInt("urunMiktar"));
 			            		
 			            	
 			            

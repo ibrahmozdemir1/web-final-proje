@@ -133,18 +133,10 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
+    <section class="breadcrumb-section set-bg" data-setbg="img/balmar.gif">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <div class="breadcrumb__text">
-              <h2>BAL-MAR</h2>
-              <div class="breadcrumb__option">
-                <a href="./index.html">Ana Sayfa</a>
-                <span>Alışveriş</span>
-              </div>
-            </div>
-          </div>
+          <br><br>
         </div>
       </div>
     </section>
@@ -256,7 +248,7 @@
                     <div class="product__discount__item">
                       <div
                         class="product__discount__item__pic set-bg"
-                        data-setbg="img/product/discount/pd-1.jpg"
+                        data-setbg="img/product/discount/dizlaptop.jpg"
                       >
                         <div class="product__discount__percent">-20%</div>
                         <ul class="product__item__pic__hover">
@@ -272,10 +264,9 @@
                         </ul>
                       </div>
                       <div class="product__discount__item__text">
-                        <span>Başlık</span>
-                        <h5><a href="#">*ÜRÜN*</a></h5>
+                        <h5><a href="#">Casper Nirvana S500</a></h5>
                         <div class="product__item__price">
-                          ₺İndirimli <span>₺Eski</span>
+                          6.000₺<span> 7.500₺</span>
                         </div>
                       </div>
                     </div>
@@ -284,7 +275,7 @@
                     <div class="product__discount__item">
                       <div
                         class="product__discount__item__pic set-bg"
-                        data-setbg="img/product/discount/pd-2.jpg"
+                        data-setbg="img/product/discount/iphone11.jpg"
                       >
                         <div class="product__discount__percent">-20%</div>
                         <ul class="product__item__pic__hover">
@@ -300,10 +291,9 @@
                         </ul>
                       </div>
                       <div class="product__discount__item__text">
-                        <span>Başlık</span>
-                        <h5><a href="#">*ÜRÜN*</a></h5>
+                        <h5><a href="#">iPhone11 128GB</a></h5>
                         <div class="product__item__price">
-                          ₺İndirimli <span>₺Eski</span>
+                          6.999₺<span>7.500₺</span>
                         </div>
                       </div>
                     </div>
@@ -312,7 +302,7 @@
                     <div class="product__discount__item">
                       <div
                         class="product__discount__item__pic set-bg"
-                        data-setbg="img/product/discount/pd-3.jpg"
+                        data-setbg="img/product/discount/stelefon.png"
                       >
                         <div class="product__discount__percent">-20%</div>
                         <ul class="product__item__pic__hover">
@@ -328,10 +318,9 @@
                         </ul>
                       </div>
                       <div class="product__discount__item__text">
-                        <span>Başlık</span>
-                        <h5><a href="#">*ÜRÜN*</a></h5>
+                        <h5><a href="#">Samsung Galaxy A21S 64 GB Akıllı Telefon Beyaz</a></h5>
                         <div class="product__item__price">
-                          ₺İndirimli <span>₺Eski</span>
+                           2.550₺ <span>3.000₺</span>
                         </div>
                       </div>
                     </div>
@@ -340,7 +329,7 @@
                     <div class="product__discount__item">
                       <div
                         class="product__discount__item__pic set-bg"
-                        data-setbg="img/product/discount/pd-4.jpg"
+                        data-setbg="img/product/discount/stablet.jpg"
                       >
                         <div class="product__discount__percent">-20%</div>
                         <ul class="product__item__pic__hover">
@@ -356,66 +345,9 @@
                         </ul>
                       </div>
                       <div class="product__discount__item__text">
-                        <span>Başlık</span>
-                        <h5><a href="#">*ÜRÜN*</a></h5>
+                        <h5><a href="#">Samsung Galaxy Tab A7 LTE SM-T507 3 GB 32 GB 10.4" Tablet</a></h5>
                         <div class="product__item__price">
-                          ₺İndirimli <span>₺Eski</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="product__discount__item">
-                      <div
-                        class="product__discount__item__pic set-bg"
-                        data-setbg="img/product/discount/pd-5.jpg"
-                      >
-                        <div class="product__discount__percent">-20%</div>
-                        <ul class="product__item__pic__hover">
-                          <li>
-                            <a href="#"><i class="fa fa-heart"></i></a>
-                          </li>
-                          <li>
-                            <a href="#"><i class="fa fa-retweet"></i></a>
-                          </li>
-                          <li>
-                            <a href="#"><i class="fa fa-shopping-cart"></i></a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="product__discount__item__text">
-                        <span>Başlık</span>
-                        <h5><a href="#">*ÜRÜN*</a></h5>
-                        <div class="product__item__price">
-                          ₺İndirimli <span>₺Eski</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="product__discount__item">
-                      <div
-                        class="product__discount__item__pic set-bg"
-                        data-setbg="img/product/discount/pd-6.jpg"
-                      >
-                        <div class="product__discount__percent">-20%</div>
-                        <ul class="product__item__pic__hover">
-                          <li>
-                            <a href="#"><i class="fa fa-heart"></i></a>
-                          </li>
-                          <li>
-                            <a href="#"><i class="fa fa-retweet"></i></a>
-                          </li>
-                          <li>
-                            <a href="#"><i class="fa fa-shopping-cart"></i></a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="product__discount__item__text">
-                        <span>Başlık</span>
-                        <h5><a href="#">*ÜRÜN*</a></h5>
-                        <div class="product__item__price">
-                          ₺İndirimli <span>₺Eski</span>
+                          1.500₺<span>2.000₺</span>
                         </div>
                       </div>
                     </div>
@@ -437,7 +369,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4">
                   <div class="filter__found">
-                    <h6><span>X sayıda</span>ürün bulundu</h6>
+                    <h6><span>6</span>Ürün Bulundu</h6>
                   </div>
                 </div>
               </div>
@@ -447,7 +379,7 @@
                 <div class="product__item">
                   <div
                     class="product__item__pic set-bg"
-                    data-setbg="img/product/product-1.jpg"
+                    data-setbg="img/product/iphone11.jpg"
                   >
                     <ul class="product__item__pic__hover">
                       <li>
@@ -462,8 +394,8 @@
                     </ul>
                   </div>
                   <div class="product__item__text">
-                    <h6><a href="#">*ÜRÜN*</a></h6>
-                    <h5>₺FİYAT</h5>
+                    <h6><a href="#">iPhone11 128GB</a></h6>
+                    <h5>6.999₺</h5>
                   </div>
                 </div>
               </div>
@@ -471,7 +403,7 @@
                 <div class="product__item">
                   <div
                     class="product__item__pic set-bg"
-                    data-setbg="img/product/product-2.jpg"
+                    data-setbg="img/product/htelevizyon.jpg"
                   >
                     <ul class="product__item__pic__hover">
                       <li>
@@ -486,8 +418,8 @@
                     </ul>
                   </div>
                   <div class="product__item__text">
-                    <h6><a href="#">*ÜRÜN*</a></h6>
-                    <h5>₺FİYAT</h5>
+                    <h6><a href="#">HELLO 32'' 82 EKRAN DAHİLİ UYDU ALICILI LCD-LED TV</a></h6>
+                    <h5>2.350₺</h5>
                   </div>
                 </div>
               </div>
@@ -495,7 +427,7 @@
                 <div class="product__item">
                   <div
                     class="product__item__pic set-bg"
-                    data-setbg="img/product/product-3.jpg"
+                    data-setbg="img/product/amonitör.jpg"
                   >
                     <ul class="product__item__pic__hover">
                       <li>
@@ -510,8 +442,8 @@
                     </ul>
                   </div>
                   <div class="product__item__text">
-                    <h6><a href="#">*ÜRÜN*</a></h6>
-                    <h5>₺FİYAT</h5>
+                    <h6><a href="#">Asus ProArt PA32UCX-K 32" 6ms 4K UHD TB3 HDR X-rite i1Dolby Vision Mini LED IPS Profesyonel Monitör</a></h6>
+                    <h5>7.000₺</h5>
                   </div>
                 </div>
               </div>
@@ -519,7 +451,7 @@
                 <div class="product__item">
                   <div
                     class="product__item__pic set-bg"
-                    data-setbg="img/product/product-4.jpg"
+                    data-setbg="img/product/itablet.jpg"
                   >
                     <ul class="product__item__pic__hover">
                       <li>
@@ -534,8 +466,8 @@
                     </ul>
                   </div>
                   <div class="product__item__text">
-                    <h6><a href="#">*ÜRÜN*</a></h6>
-                    <h5>₺FİYAT</h5>
+                    <h6><a href="#">Apple iPad Pro 2018 64GB Wi-Fi 11" Space Gray MTXN2TU/A Tablet</a></h6>
+                    <h5>2.560₺</h5>
                   </div>
                 </div>
               </div>
@@ -543,7 +475,7 @@
                 <div class="product__item">
                   <div
                     class="product__item__pic set-bg"
-                    data-setbg="img/product/product-5.jpg"
+                    data-setbg="img/product/stelefon.png"
                   >
                     <ul class="product__item__pic__hover">
                       <li>
@@ -558,8 +490,8 @@
                     </ul>
                   </div>
                   <div class="product__item__text">
-                    <h6><a href="#">*ÜRÜN*</a></h6>
-                    <h5>₺FİYAT</h5>
+                    <h6><a href="#">Samsung Galaxy A21S 64 GB Akıllı Telefon Beyaz</a></h6>
+                    <h5>2.550₺</h5>
                   </div>
                 </div>
               </div>
@@ -567,7 +499,7 @@
                 <div class="product__item">
                   <div
                     class="product__item__pic set-bg"
-                    data-setbg="img/product/product-6.jpg"
+                    data-setbg="img/product/televizyon.jpg"
                   >
                     <ul class="product__item__pic__hover">
                       <li>
@@ -582,156 +514,11 @@
                     </ul>
                   </div>
                   <div class="product__item__text">
-                    <h6><a href="#">*ÜRÜN*</a></h6>
-                    <h5>₺FİYAT</h5>
+                    <h6><a href="#">Awox B203900S 39" HD Smart LED TV</a></h6>
+                    <h5>3.000₺</h5>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="product__item">
-                  <div
-                    class="product__item__pic set-bg"
-                    data-setbg="img/product/product-7.jpg"
-                  >
-                    <ul class="product__item__pic__hover">
-                      <li>
-                        <a href="#"><i class="fa fa-heart"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-retweet"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-shopping-cart"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="product__item__text">
-                    <h6><a href="#">*ÜRÜN*</a></h6>
-                    <h5>₺FİYAT</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="product__item">
-                  <div
-                    class="product__item__pic set-bg"
-                    data-setbg="img/product/product-8.jpg"
-                  >
-                    <ul class="product__item__pic__hover">
-                      <li>
-                        <a href="#"><i class="fa fa-heart"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-retweet"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-shopping-cart"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="product__item__text">
-                    <h6><a href="#">*ÜRÜN*</a></h6>
-                    <h5>₺FİYAT</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="product__item">
-                  <div
-                    class="product__item__pic set-bg"
-                    data-setbg="img/product/product-9.jpg"
-                  >
-                    <ul class="product__item__pic__hover">
-                      <li>
-                        <a href="#"><i class="fa fa-heart"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-retweet"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-shopping-cart"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="product__item__text">
-                    <h6><a href="#">*ÜRÜN*</a></h6>
-                    <h5>₺FİYAT</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="product__item">
-                  <div
-                    class="product__item__pic set-bg"
-                    data-setbg="img/product/product-10.jpg"
-                  >
-                    <ul class="product__item__pic__hover">
-                      <li>
-                        <a href="#"><i class="fa fa-heart"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-retweet"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-shopping-cart"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="product__item__text">
-                    <h6><a href="#">*ÜRÜN*</a></h6>
-                    <h5>₺FİYAT</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="product__item">
-                  <div
-                    class="product__item__pic set-bg"
-                    data-setbg="img/product/product-11.jpg"
-                  >
-                    <ul class="product__item__pic__hover">
-                      <li>
-                        <a href="#"><i class="fa fa-heart"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-retweet"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-shopping-cart"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="product__item__text">
-                    <h6><a href="#">*ÜRÜN*</a></h6>
-                    <h5>₺FİYAT</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="product__item">
-                  <div
-                    class="product__item__pic set-bg"
-                    data-setbg="img/product/product-12.jpg"
-                  >
-                    <ul class="product__item__pic__hover">
-                      <li>
-                        <a href="#"><i class="fa fa-heart"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-retweet"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-shopping-cart"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="product__item__text">
-                    <h6><a href="#">*ÜRÜN*</a></h6>
-                    <h5>₺FİYAT</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div class="product__pagination">
               <a href="#">1</a>
               <a href="#">2</a>

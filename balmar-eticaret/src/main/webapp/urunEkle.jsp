@@ -4,7 +4,6 @@
 try{
 	    String urunAdi=request.getParameter("urunAdi");
 	    String urunKategori =request.getParameter("urunKategori");
-	    String urunFotograf=request.getParameter("urunFotograf");
 	    String urunAciklama=request.getParameter("urunAciklama");
 	    String urunFiyat =request.getParameter("urunFiyat");
 	    double uFiyat=Double.valueOf(urunFiyat);
@@ -12,7 +11,7 @@ try{
 		int uMiktar =Integer.valueOf(urunMiktar);
 		
 		
-		urunlerModel urun=new urunlerModel(urunAdi,urunKategori,urunFotograf,urunAciklama,uFiyat,uMiktar);
+		urunlerModel urun=new urunlerModel(urunAdi,urunKategori,urunAciklama,uFiyat,uMiktar);
 		urunController dbi = new urunController();
 		boolean result=dbi.control(urun);
 		dbi.Add(urun);
@@ -20,7 +19,7 @@ try{
 			response.sendRedirect("adminAddProduct.jsp");
 		}
 		else{
-			response.sendRedirect("index.jsp");
+			response.sendRedirect("adminIndex.jsp");
 		}
 }
 catch(Exception e){

@@ -24,8 +24,6 @@ public class urunlerModel {
 	@Column(name = "urunKategori")
 	private String urunKategori;
 	
-	@Column(name = "urunFotograf")
-	private String urunFotograf;
 	
 	@Column(name = "urunAciklama")
 	private String urunAciklama;
@@ -36,17 +34,12 @@ public class urunlerModel {
 	@Column(name = "urunMiktar")
 	private int urunMiktar;
 	
-	public urunlerModel(int urunId) {
-		
-		this.urunId = urunId;
-	}
 	
-	public urunlerModel(String urunAdi,String urunKategori,String urunFotograf,String urunAciklama,double urunFiyat,int urunMiktar) {
+	public urunlerModel(String urunAdi,String urunKategori,String urunAciklama,double urunFiyat,int urunMiktar) {
 		super();
 		this.urunAdi = urunAdi;
 		this.urunAciklama = urunAciklama;
 		this.urunKategori = urunKategori;
-		this.urunFotograf = urunFotograf;
 		this.urunFiyat = urunFiyat;
 		this.urunMiktar = urunMiktar;
 	}
@@ -81,14 +74,6 @@ public class urunlerModel {
 	
 	public void seturunKategori(String urunKategori) {
 		this.urunKategori = urunKategori;
-	}
-	
-	public String geturunFotograf() {
-		return urunFotograf;
-	}
-	
-	public void seturunFotograf(String urunFotograf) {
-		this.urunFotograf = urunFotograf;
 	}
 	
 	public double geturunFiyat() {

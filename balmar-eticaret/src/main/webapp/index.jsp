@@ -117,11 +117,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero__item set-bg" data-setbg="img/hero/banner.jpg">
+                    <div class="hero__item set-bg" data-setbg="img/hero/banner2.jpg">
                         <div class="hero__text">
-                            <span>EN UYGUN FİYATLA</span>
-                            <h2>Elektronik Ürünler<br />3 Yıl Garanti</h2>
-                            <p>Özenli Kargo ve Teslimat</p>
+                        <br><br><br><br><br><br><br><br><br>
                             <a href="./shop-grid.jsp" class="primary-btn">Alışverişe Başla</a>
                         </div>
                     </div>
@@ -137,27 +135,27 @@
             <div class="row">
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-1.jpg">
+                        <div class="categories__item set-bg" data-setbg="img/categories/telefon.jpg">
                             <h5><a href="#">Akıllı Telefonlar</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-2.jpg">
+                        <div class="categories__item set-bg" data-setbg="img/categories/dizlaptop.jpg">
                             <h5><a href="#">Dizüstü Bilgisayarlar</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg">
+                        <div class="categories__item set-bg" data-setbg="img/categories/pcdonanım.jpg">
                             <h5><a href="#">Bilgisayar Donanımları</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-4.jpg">
+                        <div class="categories__item set-bg" data-setbg="img/categories/tablet.jpg">
                             <h5><a href="#">Tabletler</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-5.jpg">
+                        <div class="categories__item set-bg" data-setbg="img/categories/telefonaksesuar.jpg">
                             <h5><a href="#">Telefon Aksesuarları</a></h5>
                         </div>
                     </div>
@@ -187,9 +185,9 @@
                 </div>
             </div>
             <div class="row featured__filter">
-                <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix oranges">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-1.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/iphone11.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -197,14 +195,14 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="#">1kg Kuşbaşı</a></h6>
-                            <h5>30.00 TL</h5>
+                            <h6><a href="#">iPhone11 128GB</a></h6>
+                            <h5>6999.00₺</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-2.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/monitör.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -212,14 +210,14 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="#">1kg Muz</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Acer B227Qbmiprx 21.5" 4ms Full HD 75Hz HDMI DP D-Sub A-Sync Hoparlör Pivot Mat IPS Monitör</a></h6>
+                            <h5>1500.00₺</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fresh-meat">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-3.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/televizyon.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -227,14 +225,14 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="#">1kg İncir</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Awox B203900S 39" HD Smart LED TV</a></h6>
+                            <h5>3000.00₺</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood oranges">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-4.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/stablet.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -242,14 +240,14 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="#">4-5kg Karpuz</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Samsung Galaxy Tab A7 LTE SM-T507 3 GB 32 GB 10.4" Tablet</a></h6>
+                            <h5>1500.00₺</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-5.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/htelevizyon.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -257,14 +255,14 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="#">1kg Üzüm</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">HELLO 32'' 82 EKRAN DAHİLİ UYDU ALICILI LCD-LED TV</a></h6>
+                            <h5>2350.00₺</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix oranges">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-6.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/stelefon.png">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -272,14 +270,14 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="#">Hooper Menü</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Samsung Galaxy A21S 64 GB Akıllı Telefon Beyaz</a></h6>
+                            <h5>2550.00₺</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-7.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/amonitör.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -287,14 +285,14 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="#">1kg Mango</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Asus ProArt PA32UCX-K 32" 6ms 4K UHD TB3 HDR X-rite i1Dolby Vision Mini LED IPS Profesyonel Monitör</a></h6>
+                            <h5>7000.00₺</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood vegetables">
+                <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-8.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/itablet.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -302,8 +300,8 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="#">1kg Elma</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Apple iPad Pro 2018 64GB Wi-Fi 11" Space Gray MTXN2TU/A Tablet</a></h6>
+                            <h5>2560.00₺</h5>
                         </div>
                     </div>
                 </div>
