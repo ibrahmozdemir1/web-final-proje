@@ -88,7 +88,7 @@
                  <a href="./adminIndex.jsp"><img src="img/logo2.png" alt="balmar" /></a>
               </div>
               <div class="login-form">
-                <form action="" method="post">
+                <form action="adminIndex.jsp"" method="post" >
                   <div class="form-group">
                     <label>Kullanıcı Adı</label>
                     <input
@@ -117,9 +117,6 @@
                   </div>
                   <button
                     class="au-btn au-btn--block au-btn--green m-b-20"
-                    type="submit"
-                    method= "post"
-                    href="adminLoginControl.jsp"
                   >
                     Giriş Yap
                   </button>

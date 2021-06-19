@@ -126,20 +126,12 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="breadcrumb__text">
-                        <h2>Alışveriş Sepeti</h2>
-                        <div class="breadcrumb__option">
-                            <a href="./index.jsp">Anasayfa</a>
-                            <span>Sepet</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="breadcrumb-section set-bg" data-setbg="img/balmar.gif">
+      <div class="container">
+        <div class="row">
+          <br><br>
         </div>
+      </div>
     </section>
     <!-- Breadcrumb Section End -->
 
@@ -162,11 +154,11 @@
                             <tbody>
                                 <tr>
                                     <td class="shoping__cart__item">
-                                        <img src="img/cart/cart-1.jpg" alt="">
-                                        <h5>Sebze Paketi</h5>
+                                        <img src="img/cart/iphone11.jpg" alt="">
+                                        <h5>iPhone11 128GB</h5>
                                     </td>
                                     <td class="shoping__cart__price">
-                                        $55.00
+                                        6999.00₺
                                     </td>
                                     <td class="shoping__cart__quantity">
                                         <div class="quantity">
@@ -176,7 +168,7 @@
                                         </div>
                                     </td>
                                     <td class="shoping__cart__total">
-                                        $110.00
+                                        6999.00₺
                                     </td>
                                     <td class="shoping__cart__item__close">
                                         <span class="icon_close"></span>
@@ -184,11 +176,11 @@
                                 </tr>
                                 <tr>
                                     <td class="shoping__cart__item">
-                                        <img src="img/cart/cart-2.jpg" alt="">
-                                        <h5>Taze Yeşil Sebzeler Paketi</h5>
+                                        <img src="img/cart/stablet.jpg" alt="">
+                                        <h5></h5>
                                     </td>
                                     <td class="shoping__cart__price">
-                                        $39.00
+                                        1500.00₺
                                     </td>
                                     <td class="shoping__cart__quantity">
                                         <div class="quantity">
@@ -198,29 +190,7 @@
                                         </div>
                                     </td>
                                     <td class="shoping__cart__total">
-                                        $39.99
-                                    </td>
-                                    <td class="shoping__cart__item__close">
-                                        <span class="icon_close"></span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="shoping__cart__item">
-                                        <img src="img/cart/cart-3.jpg" alt="">
-                                        <h5>Organik Muz</h5>
-                                    </td>
-                                    <td class="shoping__cart__price">
-                                        $69.00
-                                    </td>
-                                    <td class="shoping__cart__quantity">
-                                        <div class="quantity">
-                                            <div class="pro-qty">
-                                                <input type="text" value="1">
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="shoping__cart__total">
-                                        $69.99
+                                        1500.00₺
                                     </td>
                                     <td class="shoping__cart__item__close">
                                         <span class="icon_close"></span>
@@ -254,10 +224,10 @@
                     <div class="shoping__checkout">
                         <h5>Toplam Tutar</h5>
                         <ul>
-                            <li>Ara Toplam <span>$454.98</span></li>
-                            <li>Toplam <span>$454.98</span></li>
+                            <li>Ara Toplam <span>8499.00₺</span></li>
+                            <li>Toplam <span>8499.00₺</span></li>
                         </ul>
-                        <a href="#" class="primary-btn">Ödeme Kısmına Geç</a>
+                        <a href="./checkout.jsp" class="primary-btn">Ödeme Kısmına Geç</a>
                     </div>
                 </div>
             </div>

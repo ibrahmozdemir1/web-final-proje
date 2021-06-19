@@ -125,18 +125,10 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
+     <section class="breadcrumb-section set-bg" data-setbg="img/balmar.gif">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <div class="breadcrumb__text">
-              <h2>Ödeme</h2>
-              <div class="breadcrumb__option">
-                <a href="./index.html">Ana Sayfa</a>
-                <span>Ödeme</span>
-              </div>
-            </div>
-          </div>
+          <br><br>
         </div>
       </div>
     </section>
@@ -243,15 +235,14 @@
                     Ürün <span>Toplam</span>
                   </div>
                   <ul>
-                    <li>Sebze Paketi <span>75,99₺</span></li>
-                    <li>Taze Sebze <span>151,99₺</span></li>
-                    <li>Organik Muz <span>53,99₺</span></li>
+                    <li>iPhone11 128GB<span>6999.00₺</span></li>
+                    <li>Samsung Galaxy Tab A7 LTE SM-T507 3 GB 32 GB 10.4" Tablet <span>1500.00₺</span></li>
                   </ul>
                   <div class="checkout__order__subtotal">
-                    Ara toplam <span>750.99₺</span>
+                    Ara toplam <span>8499.00₺</span>
                   </div>
                   <div class="checkout__order__total">
-                    Toplam <span>750.99₺</span>
+                    Toplam <span>8499.00₺</span>
                   </div>
                   <div class="checkout__input__checkbox">
                     <label for="acc-or">

@@ -138,7 +138,7 @@
               <div class="header-wrap2">
                 <div class="logo d-block d-lg-none">
                   <a href="#">
-                    <img src="img/icon/logo-white.png" alt="balmar" />
+                    <img src="img/logo2.png" alt="balmar" />
                   </a>
                 </div>
                 <div class="header-button2">
@@ -242,7 +242,7 @@
         <aside class="menu-sidebar2 js-right-sidebar d-block d-lg-none">
           <div class="logo">
             <a href="#">
-              <img src="img/icon/logo-white.png" alt="balmar" />
+              <img src="img/logo2.png" alt="balmar" />
             </a>
           </div>
           <div class="menu-sidebar2__content js-scrollbar2">
